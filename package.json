@@ -1,0 +1,25 @@
+{
+  "name": "reversi",
+  "version": "1.0.0",
+  "description": "reversi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pablorrp1/reversi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pablorrp1/reversi/issues"
+  },
+  "homepage": "https://github.com/pablorrp1/reversi#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "serve-static": "^1.14.1"
+  }
+}
