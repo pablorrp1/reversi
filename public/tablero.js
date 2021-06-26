@@ -353,3 +353,5 @@ class tablero {
     return maximizar ? [max, movMax] : [min, movMin];
   }
 }
+
+module.exports = tablero;
