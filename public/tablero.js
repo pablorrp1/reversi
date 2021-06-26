@@ -328,7 +328,7 @@ class tablero {
   }
 
   minmax(maximizar = true) {
-    if (this.nivel >= 5) return [this.heuristica, this.movimiento];
+    if (this.nivel >= 4) return [this.heuristica, this.movimiento];
     this.sucesores = this.generarSucesores();
     let min = -999999;
     let max = 999999;
